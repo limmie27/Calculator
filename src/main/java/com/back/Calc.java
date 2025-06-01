@@ -13,6 +13,8 @@ public class Calc {
                 if (operator.equals("+")) {
                 result += number;} else if (operator.equals("-")) {
                     result -= number;
+                } else if (operator.equals("*")) {
+                    result *= number;
                 }
             }
 
